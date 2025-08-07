@@ -11,7 +11,7 @@ void Product::displayInfo() const
 	std::cout << "Name: " << name << "\n";
 	std::cout << "Product ID: " << productID << "\n";
 	std::cout << "Price: " << price << "\n";
-	std::cout << "Quantity " << quantity << "\n\n";
+	std::cout << "Quantity: " << quantity << "\n\n";
 }
 void Product::addStock(int amount)
 {
